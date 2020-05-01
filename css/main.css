@@ -1,0 +1,235 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+}
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+h1, h2,h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+}
+ul,li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+.header{
+	background: rgba(78,189,254,1);
+background: -moz-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(78,189,254,1)), color-stop(100%, rgba(55,144,217,1)));
+background: -webkit-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+background: linear-gradient(135deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ebdfe', endColorstr='#3790d9', GradientType=1 );
+padding-top: 50px;
+color: #fff;
+padding-bottom: 45px;
+}
+.container {
+	width: 1180px;
+	margin: 0 auto;
+}
+.offer{
+	margin-top: 170px;
+	width: 500px;
+}
+.title{
+	font-weight: 400;
+	font-size: 36px;
+	margin-bottom: 50px;
+}
+.title span{
+	font-weight: 900;
+	font-size: 46px;
+}
+.intro {
+margin-bottom: 50px;
+width: 360px;
+text-align: justify ;
+}
+.btn {
+	font-family: 'Montserrat', sans-serif;
+	background: #ffd429;
+	display: block;
+	font-weight: 900;
+	color: #000;
+	width: 230px;
+	padding: 20px 0; 
+	border-radius: 100px;
+	text-align: center; 
+	text-decoration: none;
+	transition: all 0.5s ease;
+}
+.btn:hover {
+	background: #f0ab29;
+}
+.desktop {
+	margin-top: 55px;
+}
+.wrapper {
+	display:flex;
+	justify-content: space-between;
+}
+.learn {
+	padding-top: 100px;
+	padding-bottom: 110px;
+	text-align: center;
+}
+.section-title {
+	font-size: 25px;
+}
+.dreams {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 70px;
+
+}
+.dream{
+	background: url('../img/icon1.jpg') no-repeat center top;
+	width: 380px;
+}
+.dream-title {
+	padding-top: 75px;
+	font-size: 18px;
+}
+.dream-text {
+	padding-top: 15px;
+}
+.dream-travel {
+	background: url('../img/icon2.jpg') no-repeat center top;
+}
+.dream-value {
+	background: url('../img/icon3.jpg') no-repeat center top;
+}
+.mail{
+	background: #ecf3f8;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	text-align: center;
+}
+.input{
+	width: 350px;
+	height: 50px;
+	border: 1px solid #bbbbbb;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	border-radius: 100px;
+	padding-left: 30px;
+	margin: 5px 0;
+	display: block;
+	margin: auto;
+
+}
+.form {
+	margin-top: 55px;
+
+}
+.btn-form {
+	margin: 15px auto;
+	border: none;
+	width: 350px;
+}
+.footer {
+	background: #164d7a;
+	padding: 55px 0;
+	color: white;
+}
+.credits {
+	text-align: center;
+	font-style: 14px;
+	color: #fff;
+	margin: 0;
+	padding-top: 20px;
+}
+.socials {
+	display: flex;
+	justify-content: center;
+}
+.socials a {
+	color: white;
+	margin-right: 25px;
+}
+
+.socials li:lact-child a {
+	margin-right: 0;
+}
+/*Responsive*/
+
+
+/* 992px - 1200px */
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 960px;
+	}
+}
+	
+
+/* 768px - 992px */
+@media screen and (max-width: 992px) {
+	.container {
+		width: 720px;
+	}
+	.wrapper {
+		flex-direction: column;
+	}
+	.intro {
+		width: 100%;
+	}
+	.offer {
+		width: 100%;
+	}
+	.desktop {
+		display: block;
+		width: 549px;
+		margin: 50px auto 0;
+	}
+	.dreams {
+		flex-direction: column;
+
+	}
+	.dream {
+		width: 100%;
+		margin: 10px 0;
+	}
+}
+	
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+	.container {
+		width: 540px;
+	}
+	.desktop {
+		width: 100%;
+	}
+	.input {
+		width: 100%;
+	}
+	.btn {
+		width: 100%;
+	}
+} 
+	
+
+	/* 320px - 576px */
+@media screen and (max-width: 576px) {
+	.container {
+		width: 90%;
+	}
+	.btn {
+		background: green;
+	}
+	.footer {
+		padding: 20px 0;
+	}
+	.mail {
+		padding-bottom: 80px;
+		padding-top: 80px;
+	}
+	}
